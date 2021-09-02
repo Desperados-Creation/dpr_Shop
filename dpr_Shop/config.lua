@@ -1,8 +1,8 @@
----------------------------------------------------------------------------------
--- Script par Desperados#0001                                                  -- 
--- Lien du discord pour toute mes créations: https://discord.gg/dkHFBkBBPZ     --
--- Lien du github pour télécharger le script                                   --
----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+-- Script par Desperados#0001                                                                 -- 
+-- Lien du discord pour toute mes créations: https://discord.gg/dkHFBkBBPZ                    --
+-- Lien du github pour télécharger le script: https://github.com/Desperados-Creation/dpr_Shop --
+------------------------------------------------------------------------------------------------
 
 Config = {
     blip = true, -- Affichage du blip (true = oui, false = non)
