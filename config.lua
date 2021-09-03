@@ -12,8 +12,7 @@ Config = {
     BlipCouleur = 2, -- Couleur du blip voir: https://wiki.gtanet.work/index.php?title=Blips
     BlipRange = true, -- Garder le blip sur la map (true = désactiver, false = activé)
 
-    marker = true, -- Affichage du marker (true = oui, false = non)
-
+    
     MarkerType = 29, -- Pour voir les différents type de marker: https://docs.fivem.net/docs/game-references/markers/
     MarkerSizeLargeur = 1.0, -- Largeur du marker
     MarkerSizeEpaisseur = 1.0, -- Épaisseur du marker
