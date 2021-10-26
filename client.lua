@@ -51,7 +51,7 @@ function OpenShopMenu()
                         RageUI.Button(v.Label .. '', nil, {RightLabel = '~r~'..v.Price.. '$'}, true, {        
                             onSelected = function()
                                 local item = v.Value
-                                TriggerServerEvent('dpr_Shop:Achat', lastPos, v.Label, v.Value, v.Price)
+                                TriggerServerEvent('dpr_Shop:Achat', v.Label, v.Value, v.Price)
                             end, 
                         })
                     end
@@ -71,7 +71,7 @@ function OpenShopMenu()
                         RageUI.Button(v.Label .. '', nil, {RightLabel = '~r~'..v.Price.. '$'}, true, {        
                             onSelected = function()
                                 local item = v.Value
-                                TriggerServerEvent('dpr_Shop:Achat', lastPos, v.Label, v.Value, v.Price)
+                                TriggerServerEvent('dpr_Shop:Achat', v.Label, v.Value, v.Price)
                             end, 
                         })
                     end
@@ -91,7 +91,7 @@ function OpenShopMenu()
                         RageUI.Button(v.Label .. '', nil, {RightLabel = '~r~'..v.Price.. '$'}, true, {        
                             onSelected = function()
                                 local item = v.Value
-                                TriggerServerEvent('dpr_Shop:Achat', lastPos, v.Label, v.Value, v.Price)
+                                TriggerServerEvent('dpr_Shop:Achat', v.Label, v.Value, v.Price)
                             end, 
                         })
                     end
@@ -111,7 +111,7 @@ function OpenShopMenu()
                         RageUI.Button(v.Label .. '', nil, {RightLabel = '~r~'..v.Price.. '$'}, true, {        
                             onSelected = function()
                                 local item = v.Value
-                                TriggerServerEvent('dpr_Shop:Achat', lastPos, v.Label, v.Value, v.Price)
+                                TriggerServerEvent('dpr_Shop:Achat', v.Label, v.Value, v.Price)
                             end, 
                         })
                     end
@@ -151,6 +151,8 @@ Citizen.CreateThread(function()
                 Visual.Subtitle(Config.Text, 1)
                 if IsControlJustPressed(1,51) then
                     OpenShopMenu()
+                else
+                    RageUI.CloseAll()
                 end
 		    end
 		end
